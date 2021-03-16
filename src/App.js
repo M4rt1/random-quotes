@@ -55,7 +55,7 @@ class App extends Component{
       <div className="App" id='quote-box'>
         <QuoteMachine selectedQuote={this.selectedQuote} assignNewQuoteIndex={this.assignNewQuoteIndex} />
         <br></br>
-        <PostTwitter tweet={this.state.quotes[this.assignNewQuoteIndex]}/>
+        <PostTwitter tweet={this.selectedQuote.quote} author={this.selectedQuote.author}/>
       </div>
     );
   }

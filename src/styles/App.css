@@ -9,5 +9,7 @@
   border-right: 1px solid #032c47;
   border-bottom: 1px solid #032c47;
   border-radius: 23px;
+  -webkit-box-shadow: -5px -5px 4px -3px #000000;
+  box-shadow: -5px -5px 4px -3px #000000;
 }
 /*# sourceMappingURL=App.css.map */
