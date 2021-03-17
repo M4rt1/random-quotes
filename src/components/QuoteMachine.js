@@ -1,6 +1,7 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
 import Button from './Button';
+import '../styles/QuoteMachine.css';
 
 const QuoteMachine = (props) =>{
     return(
