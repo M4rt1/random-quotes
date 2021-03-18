@@ -10,7 +10,7 @@ const QuoteMachine = (props) =>{
             props.selectedQuote?
             (
             <Typography >
-                <p id='text'>"{props.selectedQuote.quote}"</p> - <p id='author'>{props.selectedQuote.author}</p>
+                <p id='text'><i class="fas fa-quote-left"></i> {props.selectedQuote.quote}</p> - <p id='author'>{props.selectedQuote.author}</p>
             </Typography>
             ): 
             null

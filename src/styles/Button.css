@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=Button.css.map */
+#new-quote {
+  position: relative;
+  width: 40%;
+  height: 40px;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #578c40;
+          box-shadow: inset 0px 1px 0px 0px #578c40;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #e0001e), to(#722a2a));
+  background: linear-gradient(to bottom, #e0001e 5%, #722a2a 100%);
+  background-color: #e0001e;
+  border: 1px solid #300000;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 30px;
+  color: #FFBA08;
+}
+
+#new-quote:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ff6161), to(#e0001e));
+  background: linear-gradient(to bottom, #ff6161 5%, #e0001e 100%);
+  background-color: #ff6161;
+}
+/*# sourceMappingURL=Button.css.map */
