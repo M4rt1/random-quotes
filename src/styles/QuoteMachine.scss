@@ -13,11 +13,25 @@
     animation: 2s linear infinite spin;
 
 }
+//make quote icon spin
+
   @keyframes spin {
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(360deg);
+    }
+}
+// smaller font on mobile devicese
+@media(max-width:500px){
+    #text{
+        font-size:20px;
+    }
+    #author{
+        font-size:10px;
+    }
+    .fa-quote-left{
+        font-size:14.5px;
     }
 }

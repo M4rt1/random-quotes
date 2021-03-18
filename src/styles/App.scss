@@ -1,7 +1,6 @@
 .App{
     text-align: center;
     color:rgb(0, 0, 0);
-    background-color:white;
     margin-top:40vh;
     width:70vw;
     margin-left:auto;
@@ -13,4 +12,10 @@
     box-shadow: -5px -5px 4px -3px #000000;
     background-color: #FFBA08;
     padding:20px;
+}
+
+@media(max-width:500px){
+    .App{
+        margin-top:10vh;
+    }
 }

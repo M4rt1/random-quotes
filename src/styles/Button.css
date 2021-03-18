@@ -19,4 +19,10 @@
   background: linear-gradient(to bottom, #ff6161 5%, #e0001e 100%);
   background-color: #ff6161;
 }
+
+@media (max-width: 500px) {
+  #new-quote {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=Button.css.map */
